@@ -5,29 +5,21 @@ module.exports = {
     siteUrl: `https://novela.narative.co`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+      heading: `Welcome to WomenInTech Blog, our aim is to learn, develop and share knowledge with one another.`,
       maxWidth: 652,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/W_TechShoutOuts`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/Tambua-WomenInTech-Blog`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
-      },
-      {
-        name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        url: `https://www.instagram.com/w_techshoutouts`,
       },
     ],
   },
