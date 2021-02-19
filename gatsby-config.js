@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: `https://novela.narative.co`,
     description: `This is my description that will be used in the meta tags and important for search results`,
     hero: {
-      heading: `Welcome to WomenInTech Blog, our aim is to learn, develop and share knowledge with one another.`,
+      heading: `WomenInTech Blog`,
       maxWidth: 652,
     },
     social: [
