@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: expressway_rg
+font link: https://www.fontspring.com/fonts/typodermic/expressway/expressway-regular
+font author: Typodermic Fonts
+font author site: http://typodermicfonts.com/
+Slogan Font: Fanwood Text.otf
+
+icon designer: Mister Pixel
+icon designer link: /MisterPixel
+        
+{"bg":"#400B2C","icon":"#E8E8EE","font":"#E8E8EE","slogan":"#fcfcff"}
+      
