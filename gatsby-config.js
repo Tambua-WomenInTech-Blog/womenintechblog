@@ -41,10 +41,10 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Women In Tech Blog`,
-        short_name: `WITBlog`,
+        short_name: `Women In Tech ShoutOuts`,
         start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#fff`,
+        background_color: `"#ECE0E8"`,
+        theme_color: `#ECE0E8`,
         display: `standalone`,
         icon: `src/assets/favicon.png`,
       },
