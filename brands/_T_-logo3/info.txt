@@ -1,0 +1,18 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: OverpassMono-SemiBold
+font link: https://fonts.google.com/specimen/Overpass+Mono
+font author: Delve Withrington
+font author site: https://www.delvefonts.com/
+Slogan Font: Neuton-Extralight.ttf
+
+icon designer: Mister Pixel
+icon designer link: /MisterPixel
+        
+
+fontColor: {"hex":"#65217A"}
+bgColor: {"hex":"transparent"}
+iconColor: {"hex":"#65217A"}
+sloganColor: {"hex":"#000000"}
+      
