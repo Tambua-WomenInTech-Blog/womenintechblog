@@ -27,7 +27,9 @@ yarn build
 To confirm your changes navigate to
 http://localhost:8000/admin to view the editor.
 
+### Creating a Pull Request
 
+You have to add atleast one reviewer when creating a pull request, that must be approved by the reviewers first before merging
 
 ### Help
 
