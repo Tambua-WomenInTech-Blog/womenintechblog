@@ -21,6 +21,10 @@ module.exports = {
         name: `instagram`,
         url: `https://www.instagram.com/w_techshoutouts`,
       },
+      {
+        name: `linkedin`,
+        url: `https://www.linkedin.com/company/women-in-tech-shoutouts`,
+      },
     ],
   },
   plugins: [
