@@ -1,7 +1,10 @@
 # WomenInTech Blog
 
+![cover](https://user-images.githubusercontent.com/39112051/113208193-2e934180-927a-11eb-8346-8d8721e65a23.png)
+
+
 A WomenInTech OpenSource Blog site. Allows various authors to put down their thoughts into writing
-regarding variety of topics including technical writing, personal tech journey and non-technical topics in the tech field.
+regarding variety of topics including technical writing, personal tech journey and non-technical topics within tech field.
 
 
 # Contributing to the Blog
@@ -26,6 +29,19 @@ yarn build
 
 To confirm your changes navigate to
 http://localhost:8000/admin to view the editor.
+
+### Creating Branches
+
+Here are the branch naming conventions:
+
+* A a Blog use : Blog/your-git-username/title of the blog
+
+* A chore should use : chore/the chore name
+
+* A feature should use : feature/the feature name
+
+* A hotfix should use :  hotfix/the hotfix name
+
 
 ### Creating a Pull Request
 
