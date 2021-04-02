@@ -28,28 +28,24 @@ yarn build
 ```
 
 To confirm your changes navigate to
-http://localhost:8000/admin to view the editor.
+http://localhost:8000
 
 ### Creating Branches
 
 Here are the branch naming conventions:
 
-* A a Blog use : Blog/your-git-username/title of the blog
+```
+1. A Blog should use : Blog/your-git-username/title of the blog
 
-* A chore should use : chore/the chore name
+2. A chore should use : chore/the chore name
 
-* A feature should use : feature/the feature name
+3. A feature should use : feature/the feature      name
 
-* A hotfix should use :  hotfix/the hotfix name
+4. A hotfix should use :  hotfix/the hotfix name
 
+```
 
 ### Creating a Pull Request
 
 You have to add atleast one reviewer when creating a pull request, that must be approved by the reviewers first before merging
-
-### Help
-
-If you don't have *yarn* installed follow the [yarn getting started guide](https://classic.yarnpkg.com/en/docs/getting-started) 
-
-For more information visit the [Theme repository](https://github.com/narative/gatsby-theme-novela)
 
