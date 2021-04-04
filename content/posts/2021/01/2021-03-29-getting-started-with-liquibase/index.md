@@ -53,7 +53,82 @@ When you run Liquibase for the first time, it creates the DataBaseChangeLog ,Dat
 When you issue a Liquibase update command, Liquibase will go through Changelog file to see if there are some ChangeSets that have not been updated in the DataBaseChangeLog. If found, it executes them and place the updated record in the table getting you to the latest revision of the structure you are defining.
 Rather than writing SQL directly against the database to create, update or drop database objects, desired database changes can be written in different format like in XML,SQL, YAML, JSON.
 
+### ChangeSet Example in a YAML format
 
+```
+- changeSet:
+    id: 1
+    author: josephine
+    changes:
+      -  addColumn:
+          tableName: person
+          columns:
+            -  column:
+                name: username
+                type: varchar(10)
 
+``` 
 
+### ChangeSet Examples in XML format
+
+```
+- changeSet:
+    id: 1
+    author: josephine
+    changes:
+      -  addColumn:
+          tableName: person
+          columns:
+            -  column:
+                name: username
+                type: varchar(10)
+
+```
+
+### ChangeSet Examples in XML format
+
+```
+<changeSet  id="1"  author="josephine">   
+    <addColumn  tableName="person">          
+    <column  name="username"  type="varchar(10)"/>  
+    </addColumn>               
+</changeSet>
+
+```
+Checkout using SQL and JSON formats in this link below
+
+https://docs.liquibase.com/concepts/basic/sql-format.html
+
+# Liquibase Use Case example
+
+In this example am going to showcase how to use Liquibase Rollback feature to undo a Liquibase Database Operation and rollback(revert) to previous database version tag say version 1.0. (Also, Liquibase can roll back without tags).
+To run liquibase using maven, you need:
+
+```
+Add liquibase-maven-plugin in pom file,
+```
+
+To run liquibase using Gradle, you need:
+
+```
+Add liquibase-gradle-plugin in build.gradle file,
+```
+
+To run liquibase in command line
+
+```
+- download liquibase, unpack its executable file liquibase or    
+  liquibase.bat in the package.
+- download your database jdbc driver to you local disk.
+```
+You can choose either command line, gradle plugin or maven plugin to run liquibase, whichever suits you.
+
+## Categories of Liquibase Operations
+
+* Automatic Rollback : Database migrations can automatically generate steps required for rolling back. Such change-types includecreate table, rename column, and add column.
+
+* Manual Rollback : A rollback command is placed manually because automatic migration instructions cannot be used to identify the statement. Such Change types include drop table and insert data. For these cases you can specify the rollback commands via the tag within the changeset tag. You can use an empty tag if you don’t want anything done to undo a change in rollback mode.
+
+# Samples
+For instance the image below represents the current DataBase version say 1.1 , where I renamed the Student column to students_name and now I would wish to revert the changed Column name to the previous 1.0 version where I had labelled it as name .
 
