@@ -34,16 +34,13 @@ http://localhost:8000
 
 Here are the branch naming conventions:
 
-```
-1. A Blog should use : Blog/your-git-username/title of the blog
+* A Blog should use : `Blog/your-git-username/title of the blog`   
 
-2. A chore should use : chore/the chore name
+* A chore should use : `chore/the chore name`
 
-3. A feature should use : feature/the feature      name
+* A feature should use : `feature/the feature name`
 
-4. A hotfix should use :  hotfix/the hotfix name
-
-```
+* A hotfix should use :  `hotfix/the hotfix name`
 
 ### Creating a Pull Request
 
