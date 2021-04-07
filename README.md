@@ -1,10 +1,7 @@
 # WomenInTech Blog
 
-![cover](https://user-images.githubusercontent.com/39112051/113208193-2e934180-927a-11eb-8346-8d8721e65a23.png)
-
-
 A WomenInTech OpenSource Blog site. Allows various authors to put down their thoughts into writing
-regarding variety of topics including technical writing, personal tech journey and non-technical topics within tech field.
+regarding variety of topics including technical writing, personal tech journey and non-technical topics in the tech field.
 
 
 # Contributing to the Blog
@@ -28,21 +25,15 @@ yarn build
 ```
 
 To confirm your changes navigate to
-http://localhost:8000
-
-### Creating Branches
-
-Here are the branch naming conventions:
-
-* A Blog should use : `Blog/your-git-username/title of the blog`   
-
-* A chore should use : `chore/the chore name`
-
-* A feature should use : `feature/the feature name`
-
-* A hotfix should use :  `hotfix/the hotfix name`
+http://localhost:8000/admin to view the editor.
 
 ### Creating a Pull Request
 
 You have to add atleast one reviewer when creating a pull request, that must be approved by the reviewers first before merging
+
+### Help
+
+If you don't have *yarn* installed follow the [yarn getting started guide](https://classic.yarnpkg.com/en/docs/getting-started) 
+
+For more information visit the [Theme repository](https://github.com/narative/gatsby-theme-novela)
 
