@@ -2,7 +2,7 @@
 title: Gettting Started with Flutter
 author: Maureen Josephine
 date: 2021-01-20
-hero: ./images/flutter.png
+hero: ./images/flutter.jpg
 excerpt: This blog post shows step by step guidelines on how to Get started with Flutter and Resources to use to help one get in track.
 ---
 
