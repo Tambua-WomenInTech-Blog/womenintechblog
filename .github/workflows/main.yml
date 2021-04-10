@@ -1,4 +1,4 @@
-name: Preview Publish
+name: Preview-Publish
 
 on:
   push:
