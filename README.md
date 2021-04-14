@@ -34,7 +34,9 @@ http://localhost:8000
 
 Here are the branch naming conventions:
 
-* A Blog should use : `Blog/your-git-username/title of the blog`   
+* A Blog should use : `Blog/your-git-username/title of the blog`  
+
+* To edit an already published Blog, use : `edit/your-git-username/title of the blog`
 
 * A chore should use : `chore/the chore name`
 
@@ -46,3 +48,7 @@ Here are the branch naming conventions:
 
 You have to add atleast one reviewer when creating a pull request, that must be approved by the reviewers first before merging
 
+### Merging a Pull Request
+
+Once a Pull Request has been approved, merge it to the `develop` branch. 
+`Develop` is the default branch. 
