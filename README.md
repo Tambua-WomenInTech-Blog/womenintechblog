@@ -46,6 +46,7 @@ Here are the branch naming conventions:
 
 ### Creating a Pull Request
 
+Pull requests are created from `develop` branch
 You have to add atleast one reviewer when creating a pull request, that must be approved by the reviewers first before merging
 
 ### Merging a Pull Request
