@@ -72,5 +72,5 @@ To do so,follow the simple steps below
     This will build the Docker image locally and run it
 * Navigate to [localhost:8090](localhosst:8090) on your browser to view your changes
 
-> One caveat is that you will not have hot reloading. To make new changes, exit from the container `Ctrl+C`, make you changes 
+> One caveat is that you will not have hot reloading. To make new changes, exit from the container `Ctrl+C`, make your changes 
     and rebuild again.  
