@@ -8,7 +8,12 @@
     "dev": "gatsby develop",
     "clean": "gatsby clean",
     "proxy": "netlify-cms-proxy-server",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "docker:build" : "docker build -t womenintechblog/website .",
+    "docker:all" : "yarn run docker:build && docker run --rm -p 8090:8080 womenintechblog/website"
+  },
+  "resolutions": {
+    "sharp": "^0.27.1"
   },
   "dependencies": {
     "@narative/gatsby-theme-novela": "^0.*",
