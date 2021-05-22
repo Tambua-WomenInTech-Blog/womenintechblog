@@ -53,3 +53,24 @@ You have to add atleast one reviewer when creating a pull request, that must be 
 
 Once a Pull Request has been approved, merge it to the `develop` branch. 
 `Develop` is the default branch. 
+
+### Developing on Docker 
+
+In certain scenarios, runing `npm install` or `yarn install` may fail due to a set of unknown errors (node-gyp,sharp...etc)
+in that case it is safe to test your site on Docker.
+
+To do so,follow the simple steps below
+
+* Install Docker as detailed [here](https://docs.docker.com/engine/install/) 
+* Once Docker is set up and running, run the command below in your favourite terminal
+    ```bash 
+    npm run docker:all
+
+    # Or for yarn 
+    yarn run docker:all
+    ```
+    This will build the Docker image locally and run it
+* Navigate to [localhost:8090](localhosst:8090) on your browser to view your changes
+
+> One caveat is that you will not have hot reloading. To make new changes, exit from the container `Ctrl+C`, make you changes 
+    and rebuild again.  
