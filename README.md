@@ -56,7 +56,7 @@ Once a Pull Request has been approved, merge it to the `develop` branch.
 
 ### Developing on Docker 
 
-In certain scenarios, runing `npm install` or `yarn install` may fail due to a set of unknown errors (node-gyp,sharp...etc)
+In certain scenarios, running `npm install` or `yarn install` may fail due to a set of unknown errors (node-gyp,sharp...etc)
 in that case it is safe to test your site on Docker.
 
 To do so,follow the simple steps below
