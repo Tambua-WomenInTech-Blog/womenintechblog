@@ -2,7 +2,7 @@
 title: Gettting Started with Liquibase
 author: Maureen Josephine
 date: 2021-03-29
-hero: ./images/light.jpg
+hero: ./images/image.jpg
 excerpt: This blog post provides an overview on how to get started with Liquibase.
 ---
 
