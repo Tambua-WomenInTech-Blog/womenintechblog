@@ -102,13 +102,17 @@ FreeCodeCamp is a non-profit organization that offers an interactive learning we
 Hacker.io offers a wide range of courses that one can acquire various skills from. Check it out here: [<span style="color:brown"> **Hacker.io Courses** </span>](https://hackr.io)
 
 ### 29. SoloLearn
-SoloLearn offers a variety of courses that grants one an opportunity to learn to code. Check it out here: [<span style="color:brown"> **SoloLearn courses** </span>](https://www.sololearn.com)
+SoloLearn offers a variety of courses that grants one an opportunity to learn to code. Check it out here: [<span style="color:brown"> **SoloLearn Courses** </span>](https://www.sololearn.com)
 
 ### 30. Google Android Training
 There are a variety of courses that one can train on from beginner, intermediate to expert level and get certified. Check it out here: [<span style="color:brown"> **Google Android Training** </span>](https://developer.android.com/courses)
 
 ### 31. LinkedIn Learning
 LinkedIn Learning offers video courses taught by experts in software, creative, and business skills. Check it out here: [<span style="color:brown"> **LinkedIn Learning** </span>](https://www.linkedin.com/learning)
+
+### 32. Codin Game
+CodinGame is an online platform for developers, that allows them to learn to code better by playing games with increasingly difficult puzzles. Sounds fun to play games as you learn to code:). Check it out here: [<span style="color:brown"> **Codin Game** </span>](https://www.codingame.com/home)
+ 
 
 *Thank you for reading🙂. You now have some links to the sites that can help you get up on track in your learning journey.*
 
