@@ -31,26 +31,27 @@ After having a basic idea of what flutter is, you might be eager to know about t
   * VScode
   * Xcode 
 
-You could check this https://flutter.dev/docs/get-started/editor on steps on how to set up your favourable editor.
+You could check this [<span style="color:blue"> **Getting Started with Flutter** </span>]( https://flutter.dev/docs/get-started/editor) on steps on how to set up Flutter on your favourable editor.
 
 ### 3. Learn about this beautiful language - Dart
 
 The next thing before diving into flutter, learn about Dart. Dart will take you through the Object Oriented Programming concepts that you need to grasp like variables, classes, methods, functions, Operators, Control flow statements, Exceptions like throw, catch, finally and Data types like Strings, Maps, Lists among others.
 
-You could check https://www.dartlang.org/ to get started on Dart Language.
+You could check [<span style="color:blue"> **Getting Started with Dart** </span>](https://www.dartlang.org/) to get started on Dart Language.
 
-You can also use this online editor https://dartpad.dartlang.org/ to practice on the Dart language.
+You can also use this online editor [<span style="color:blue"> **Dart Pad** </span>](https://dartpad.dartlang.org/ )to practice on the Dart language.
 
 ### 4. Write your first Flutter App
 
 After going through the basic OOP programming concepts like looping, functions, variables, classes, and conditional statements, you are now confident enough to start up your first Flutter Application. Everything in flutter is a widget including screens,texts, graphics, Containers etc. UI design in Flutter involves creating widgets.
-You can check out https://flutter.dev/docs/get-started/codelab to start up your first hello world flutter app. You can either use your phone or an emulator to run your app using the command ```flutter run```.
+You can check out [<span style="color:blue"> **Flutter Codelab** </span>]( https://flutter.dev/docs/get-started/codelab)to start up your first hello world flutter app. You can either use your phone or an emulator to run your app using the command ```flutter run```.
 
 ### 5. Google Codelabs.
 
 This involves step by step procedures to code challenges. It is interesting because it is very practical, you can follow along the codelabs and maybe later on tweak to your own way.
 You can check them out at
-https://flutter.dev/docs/codelabs
+[<span style="color:blue"> **Google Codelabs** </span>](https://flutter.dev/docs/codelabs
+) 
 
 ### 6. Udemy Flutter Course
 
@@ -60,36 +61,33 @@ Check udemy.com
 ### 7. Udacity Flutter Course.
 
 Google also offers free Flutter Udacity course. You could go through this to get a sneak peak of how flutter apps work. You could do this practically to enhance your understanding.
-
-https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905
+Checkout:[<span style="color:blue"> **Udacity Flutter Course** </span>](https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905)
 
 
 ### 8. MTechViral youtube videos.
 
-You could watch MTechViral to get a glimpse of flutter tutorials. These helps in building your scope of knowledge in flutter.
-
-https://www.youtube.com/channel/UCFTM1FGjZSkoSPDZgtbp7hA
+You could watch MTechViral to get a glimpse of flutter tutorials. These helps in building your scope of knowledge in flutter.Checkout: [<span style="color:blue"> **MTechViral youtube videos.** </span>](https://www.youtube.com/channel/UCFTM1FGjZSkoSPDZgtbp7hA) 
 
 ### 9. Attempt Code Challenges
 
-After passing the above steps, you are probably able to understand Dart syntax. Attempting code challenges assists in testing your ability to break down a problem into small steps and finding solutions to them. You can sign up for CodeWars/Kata challenges at https://codewars.com to test your Dart language summary. The more you attempt the challenges,the more you will be eager to gain more points and this sparks interest in programming.
+After passing the above steps, you are probably able to understand Dart syntax. Attempting code challenges assists in testing your ability to break down a problem into small steps and finding solutions to them. You can sign up for CodeWars/Kata challenges at [<span style="color:blue"> **Flutter Code Challenges** </span>](https://codewars.com) to test your Dart language summary. The more you attempt the challenges,the more you will be eager to gain more points and this sparks interest in programming.
 
 ### 10. Gitter
 
-You can join the gitter chat to get connected with people who have had hands-on experience with Flutter. You can ask questions about what you are not able to solve, to get opinionated answers that might be helpful.https://gitter.im/flutter/flutter
+You can join the gitter chat to get connected with people who have had hands-on experience with Flutter. You can ask questions about what you are not able to solve, to get opinionated answers that might be helpful. Checkout: [<span style="color:blue"> **Gitter** </span>](https://gitter.im/flutter/flutter)
 
 ### 11. GitHub Repositories.
 
-After getting a basic idea about flutter and having understood the basic concept, you can check on git hub through: https://github.com/Solido/awesome-flutter
+After getting a basic idea about flutter and having understood the basic concept, you can check on git hub through: [<span style="color:blue"> ** Flutter GitHub Repositories** </span>](https://github.com/Solido/awesome-flutter)
 
 ### 12. Flutter Weekly.
 
 To get new weekly insights about flutter, flutter weekly says it all. It delivers information about latest flutter news, latest flutter articles and flutter jobs among others.
-https://flutterweekly.net and https://twitter.com/FlutterWk on twitter.
+[<span style="color:blue"> **Flutter Weekly** </span>](https://flutterweekly.net) and [<span style="color:blue"> **Flutter Weekly Twitter** </span>](https://twitter.com/FlutterWk) on twitter.
 
 ### 13. Join Slack Flutter Communities
 
-Joining slack communities will enhance your confidence in flutter . This helps in sharing and by sharing you gain a lot. You can join https://mindorks.com/connect-with-us
+Joining slack communities will enhance your confidence in flutter . This helps in sharing and by sharing you gain a lot. You can join [<span style="color:blue"> **Flutter Communities Slack** </span>](https://mindorks.com/connect-with-us) 
 
 ### 14. Follow the Official @flutterio handle on Twitter
 
@@ -97,7 +95,7 @@ Follow the official @flutterio twitter handle and @r_FlutterDev to get the lates
 
 ### 15. Flutter Community
 
-You can join Flutter Community on medium. It always feels good to be part of a developer community because it gives a sense of belonging.https://medium.com/flutter-community
+You can join Flutter Community on medium. It always feels good to be part of a developer community because it gives a sense of belonging.[<span style="color:blue"> **Flutter Community** </span>](https://medium.com/flutter-community)
 
 ### 16. Lastly, attend Flutter Study Jams, meetups and Developer’s Conferences.
 
