@@ -8,11 +8,11 @@ excerpt: This blog post showcases a list of some tech communities that you can j
 
 # Introduction.
 
-As much as we strive to improve our Tech skills, being part of a tech community contributes a lot in the growth because we network & learn a lot from each other 💪💪. Here are some communities that you can join as you continue with your tech journey:
+As much as we strive to improve our Tech skills, being part of a tech community contributes a lot in the growth because we network & learn a lot from each other 💪. Here are some communities that you can join as you continue with your tech journey:
 
 ### 1. Google Developer Groups
 
-Google Developer Groups (GDGs) is one of the Biggest Developer Groups in the world with various chapters in different regions. They host Developer Festivals commonly known as #DevFest yearly where developers meet to attend or give Talks on various topics about Google Technologies like Android, Flutter, Firebase among others. Checkout some existing GDG Chapters where you can find a home in 🙂 [<span style="color:blue"> **Google Developers Community** </span>](https://developers.google.com/community)
+Google Developer Groups (GDGs) is one of the Biggest Developer Groups in the world with various chapters in different regions. They host Developer Festivals commonly known as #DevFest yearly where developers meet to attend or give Talks on various topics about Google Technologies like Android, Flutter, Firebase among others. Checkout some existing GDG Chapters where you can find a home in 🙂 [<span style="color:blue"> **Google Developers Community** </span>](https://developers.google.com/community).
 
 ### 2. Google Developer Students Clubs
 
@@ -20,15 +20,15 @@ Google Developer Student Clubs are community groups for college and university s
 
 ### 3. Facebook Developer Circles
 
-Facebook Developer Circles is a community where developers meet and share knowledge revolving around FaceBook products. Checkout the Developer Circles communities here: [<span style="color:blue"> **Facebook Developer Circles Communities** </span>](https://developers.facebook.com/developercircles/)
+Facebook Developer Circles is a community where developers meet and share knowledge revolving around FaceBook products. Checkout the Developer Circles communities here: [<span style="color:blue"> **Facebook Developer Circles Communities.** </span>](https://developers.facebook.com/developercircles/)
 
 ### 4. Interaction Design Foundation
 
-This is a community of UI/UX Designers where they focus on improving their Design Expertise covering best practices. They also offer UX Design courses that can help one to upgrade their skills. Check it out here:[<span style="color:blue"> **Interaction Design Community**</span>](https://www.interaction-design.org/community)
+This is a community of UI/UX Designers where they focus on improving their Design Expertise covering best practices. They also offer UX Design courses that can help one to upgrade their skills. Check it out here:[<span style="color:blue"> **Interaction Design Community.**</span>](https://www.interaction-design.org/community).
 
 ### 5. DevCenter Square
 
-This is a community of over 2,400+ African software designers and developers collaborating, learning and working on open source and sponsored projects. Check it out here : [<span style="color:blue"> **DevCenter Square**</span>](https://devcenter-square.github.io/)
+This is a community of over 2,400+ African software designers and developers collaborating, learning and working on open source and sponsored projects. Check it out here : [<span style="color:blue"> **DevCenter Square.**</span>](https://devcenter-square.github.io/)
 
 ### 6. Flutter Communities
 
@@ -36,63 +36,94 @@ This consists of a various communities of Developers who are mostly interested i
 
 ### 7. Flutterista Community
 
+The Flutteristas Community is a world-wide community of people whose gender identity is either female or non-binary and have an interest in the Flutter SDK. The Flutteristas have a monthly meeting which usually includes a presentation by Flutter Community members. Check it out here to be part of the [<span style="color:blue"> **Flutteristas Community **</span>](https://twitter.com/flutteristas).
+
 ### 8. Kotlin Kenya
 
-Indie Hackers
+Kotlin Kenya is a community of Kotlin enthusiastists who meet periodically to discuss topics around Kotlin. Checkout the community [<span style="color:blue"> **here**</span>](https://www.meetup.com/KotlinKenya/).
 
-LambdaTest Community
+### 9. Indie Hackers
 
-Figma Africa
+This is a community of Developers who share strategies and revenue numbers behind their side projects and companies. Check it out : [<span style="color:blue"> **here**</span>](https://www.indiehackers.com)
 
-Podii Community
 
-Elixir Kenya
+### 10. LambdaTest Community
 
-Nairuby
+This is a community of software testers . LambdaTest is a cross-browser testing platform. To be part of the community, checkout : [<span style="color:blue"> **LambdaTest Community**</span>](https://community.lambdatest.com/)
 
-Atlassian Community
+### 11. Figma Africa
 
-Codennovation
+This is one of the largest community of Designers across the world showcasing their members various designs and inspiration. To be part of the community, checkout : [<span style="color:blue"> **Figma Africa**</span>](https://dribbble.com/figmaafrica)
 
-AI Kenya
+### 12. Podii Community
 
-Digital Ocean Community
+This is a community of Developers with various skills set having periodical discussions on various Technologies they are using. To be part of the community, Check it out on [<span style="color:blue"> **Twitter.**</span>](https://twitter.com/podiihq)
 
-Android254
+### 13. Elixir Community
 
-Hackernoon
+This is a community of Developers using Elixir Language in their software development. Checkout [<span style="color:blue"> **Elixir Programming Language**</span>](https://twitter.com/elixirlang) and [<span style="color:blue"> **Elixir Kenya.**</span>](https://twitter.com/elixirkenya) to be part of the community.
 
-AWS User Group
+### 14. Nairuby
 
-Product Tank
+### 15. Atlassian Community
 
-Product School
+### 16. Codennovation
 
-DigiClan Africa
+### 17. AI Kenya
 
-Reddit
+### 18. Digital Ocean Community
 
-Hashnode
+### 19. Android254
 
-WomenWhoCode
+### 20. Hackernoon
 
-SheCodeAfrica
+### 21. AWS User Group
 
-WomenInStem Network
+### 22. Product Tank
 
-Rails Girls
+### 23. Product School
 
-TechQuest
+### 24. DigiClan Africa
 
-Liquibase Community
+### 25. Reddit
 
-SheHacksKe
+### 26. Hashnode
 
-Dev Careers
+### 27. WomenWhoCode
 
-DevRel Collective
+### 28. SheCodeAfrica
 
-DailyUI
+### 29. WomenInStem Network
 
-WomenTechMakers
+### 30. Rails Girls
+
+### 31. TechQuest
+
+### 32. Liquibase Community
+
+### 33. SheHacksKe
+
+### 34. Dev Careers
+
+### 35. DevRel Collective
+
+### 36. DailyUI
+
+### 37. WomenTechMakers
+
+### 38. ReactDevsKe
+
+### 39. eKRAAL Innovation Hub
+
+### 40. LuxTech Academy
+
+### 41. Ladies of Lux
+
+### 42. Angular Kenya
+
+### 43. Kenya Vue Community
+
+### 44. TensorFlow Nairobi Community
+
+### 45. Stackoverflow Community
 
