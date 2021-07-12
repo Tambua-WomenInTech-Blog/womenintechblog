@@ -22,7 +22,7 @@ To be eligible for selection to a project, you have to make contributions to the
 
 If you are hesistant to apply to a project, my advice is just go for it. I was quite scared of applying too. The worst thing that could happen is you will contribute to the open source project during the application process and learn a lot in the process if don't get selected. Also all the experience you get from applying could help you improve and reapply the following round.
 
-###  Tips :memo:
+###  Tips 📝
 - You could signup for the Outreachy mailing list to be notified when the applications open.
 - You could also follow Outreachy [on twitter](https://twitter.com/outreachy) they also update there when applications open.
 - Pick a project or two and start contributing to them early enough.
