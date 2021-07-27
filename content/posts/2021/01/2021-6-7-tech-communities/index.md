@@ -1,7 +1,7 @@
 ---
 title: 40+ Tech Communities
 author: Maureen Josephine
-date: 2021-06-06
+date: 2021-07-24
 hero: ./images/image.jpg
 excerpt: This blog post showcases a list of some tech communities that you can join as you continue with your tech journey.
 ---
@@ -108,10 +108,10 @@ Product School offers trainings to Product Enthusiasts and prepares students for
 
 This is a community of Digital Marketing Professionals and Enthusiasts who focus on training people to be better Content creators through Digital Marketing. Check it out [<span style="color:blue"> **here**</span>](https://www.digiclan.africa/).
 
-### 25. Reddit
+### 25. HackerNews
 
-This is a web content rating and discussion website. You can register and checkout your prefered group where you can submit your content eg Tech Article links or give your views in form of a discussion out of other submitted Topics. Check out Reddit 
-[<span style="color:blue"> **here**</span>] (https://www.reddit.com/)
+This is a social news website focusing on computer science and entreprenuership. It's a great site to help one get connected to any catchy tech news and in turn creates an amazing community. Check out HackerNews
+[<span style="color:blue"> **here**</span>] (https://news.ycombinator.com/).
 
 
 ### 26. Hashnode
