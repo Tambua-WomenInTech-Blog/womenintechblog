@@ -49,3 +49,32 @@ In React we use JSX, which we will dive into later. But for now have a good gras
 
 - How to structure HTML elements.
 - HTML attributes such as class, id, onclick, href etc
+
+## Development Environment
+
+The first thing we do before interacting with any programming language is to set up it's developemt environment, React JS is no different.
+If you have **Node JS** and **Visual Studio Code** (or your preffered IDE) set up you can skip this section.
+
+#### Node JS
+
+Do I really need node to set up a React app? The answer is no. If you are a web developer that can handle HTML/CSS and JavaSCript you can try React without Node JS or any other complext tool to manage it. That's your assignment.
+
+In our case we need Node js. To download it visit [<span style="color:blue">**this link**</span>]( https://nodejs.org/en/download/ ) and choose one that fit's your machine.
+
+When the installation is complete, open your terminal and type 
+ > node -v 
+
+This should show you the version of node that you have installed.
+The output should look something like:
+ > v16.7.0
+
+Hurrraaaaaayy!!! Congratulations! You have completed the first step to getting started with React.
+
+
+#### Visual Studio Code
+
+VSC is a popular Open Source IDE for frontend development. There's a bunch of IDEs that you can try depending on your preference. For now we will run with Visual Studio Code.
+
+Click [<span style="color:blue">**this link**</span>]( https://code.visualstudio.com/download ) to download the version that suits your platform.
+That's enough development set up for now.
+
