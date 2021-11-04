@@ -14,6 +14,8 @@ We'll get set up, explain the how's and why's behind the basic concepts and buil
 Grab a drink, buckle up and let's get started!
 
 ### Sections
+
+
 [Prerequisites]()
 [Basic JavaScript]()
 [Basic HTML]()
@@ -26,4 +28,24 @@ Grab a drink, buckle up and let's get started!
 [Let's Display Data Fetched From an API]()
 
 
+## Prerequisites
 
+
+You don't need to have any prior knowldge of React before reading this article, you however need to be familiar with a few things in order to get the most out of this guide.
+
+#### Basic JavaScript
+
+
+React is a JS library so it makes sense to know JavaSript before learning React right? Worry less, you __don't__ need to know Javscript extensively to learn React Js, just the basics.Here's a list of some of the concepts you should be familiar with before learning React.
+- Variables, functions and Data Types
+- Asychronous Programming
+- Arrays and Objects
+- ES6 features and syntax
+- DOM Manupulation
+
+#### Basic HTML
+
+In React we use JSX, which we will dive into later. But for now have a good grasp of HTML preferably HTML5.
+
+- How to structure HTML elements.
+- HTML attributes such as class, id, onclick, href etc
