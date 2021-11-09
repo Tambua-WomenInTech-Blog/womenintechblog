@@ -210,7 +210,53 @@ React developers almost exclusively use JSX, this section was important to under
 
 ### Making things dynamic
 
+Why use JSX when you can just write HTML and get away with it? Well if we remember what JSX stands for( JavaScript XML ). This means we can use JavaScript to make things dynamic. Our previous example looks like so:
 
+     const App = () =>{
+            return(
+                <div>
+                <h1>Our First React App</h1>
+                <h2>This is our first react app, isn't it amazing!!!!</h2>
+                </div>
+            )
+        }
+
+Now let's make it dynamic.
+Create a variable ``message`` to hold our message.
+
+``const message = 'This is our first react app, isn't it amazing!!!!';``
+
+Now to add JavaScript to use this, we use **curlybraces** `{}`.
+
+        const App = ()=>{
+            const message = 'This is our first react app, isn't it amazing!!!!';
+            return(
+                <h1>Our First React App</h1>
+                <h2>{ message }</h2>
+            )
+        }
+
+If you run this in your terminal you will see the output. Now go ahead and change the message and see magic!
+
+We use curly braces to tell the compiler **"execute this code in JavaScript"**. If we didn't have the curly braces the message wouldn't be executed as JavaScript, and instead the text 'message' would be displayed on your browser.
+
+## How a component get's rendered.
+
+Hopefully, I have cleared all the questions you have about JSX and creating components plus making them dynamic. I know you still asking yourself how these components get rendered right? This section will clear that up.
+Let's take a look at our file structure, notice ``index.html`` , this is always considered an entry file, to most developers if not all. You can change the entry point if you wish. For now we will leave it as is.
+
+Focus on this line of code
+> ReactDOM.render(<App />, document.getElementById("root"));
+
+Notice we have ``document.getElementById("root");`` finally some normal looking JavaScript. This gets the root element from the DOM using plain JavaScript and renders our App component within it. Our App component is imported like so:
+
+``import App from './App';``
+
+Remember we exported App from our App component. This lets other files or components use App component.
+
+The ``root`` element comes from *index.html* file from our folder called ``public/`` . As mentioned earlier, ``index.html`` is the file that gets rendered when the application loads. Within it we have a ``div`` with an id ``root`` which is empty and where our React components get rendered. Let's open our dev tools and have a look.
+
+![Output in the console](./images/console.png)
 
 
 
