@@ -174,5 +174,45 @@ This should open the browser and you should be able to see your application runn
 Voila!! You just created your first component.
 
 
+### JSX
+
+Let's dive deeper into JSX, you probably have some questions lingering.
+
+            return(
+                <div>
+                    <h1>Our First React App</h1>
+                    <h2>This is our first react app, isn't it amazing!!!!</h2>
+                </div>
+                )
+
+This looks like HTML and it's not. It's JSX! Evn though it looks like normal HTML but it's not, React is creating the element tree using the following syntax:
+    ``React.createElement(component,props,...children)``
+
+- component: The HTML element you wish to create i.e ``div``, ``h1``
+- props: Any props you wish to pass to the component
+- children: An array of **HTML Elements** nested within a component.
+
+So the same component we just created can be written as:
+
+        const App = ()=>{
+            return(
+                React.createElement('div', null, React.createElement('h1',null, "Hello World"),
+                
+                React.createElement('div', null, React.createElement('h1',null, "This is our first react app, isn't it amazing!!!!"))
+            );
+         }
+
+This is a whole lot to type right? It looks messy. If you trace through it you will realize we are creating a `div` which has no props passed to it and has other elements created inside it which are `h1` and `h2`. If you've interacted with JavaScript a lot you'll realize that it a lot similar to ``document.createElement`` after all this is a JavaScript library.
+
+This is the beauty of JSX, it allows you to write JavaScript and HTML without going through the hustle of ``React.createElement()``.
+React developers almost exclusively use JSX, this section was important to understand what happens under the hood.
+
+
+### Making things dynamic
+
+
+
+
+
 
 
