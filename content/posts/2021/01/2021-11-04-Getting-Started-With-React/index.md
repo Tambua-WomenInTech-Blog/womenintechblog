@@ -102,6 +102,8 @@ Realize we've been directed on how to start our app
 
 ## Exploring Create React App
 
+![Here's the file structure](./images/react-file-structure.png)
+
 After running  ``npx create-react-app yourApp``, you will find your app root has three folders, ``node_modules/``, ``public/``, ``src/`` and three files ``.gitignore``, ``package.json``, ``README.md`` and ``yarn.lock``.
 
 ### Running create-react-app
@@ -123,6 +125,53 @@ The ``package.json`` file is written out and will not be changed again. At this 
 After a check to see if React is installed, it moves to check if the repository has been initialized with git. These runs git init, and adds the first commit. This is where the line ``Initialized a git repository`` comes from.
 
 The last thing init.js does before ending the process is print the success message and instructions. These introduce you to basic ``react scripts`` commands and suggest you cd into your app directory to run your application.
+
+
+### Index.html
+
+This is the entry file, the first thing that the web browser loads when a user navigates to your app. If you look at the file, it's just a normal HTML file that you're hopefully familiar with. If you look at the body, it's empty. React dynamically convert our React code into HTML and load it here, in the div with id "root". With that out of the way let's get to the juicy part.
+
+
+## Our First Component
+Open up our **App.js** component, this is the main component in our application. It is the first component to be rendered, the icing to our cake.
+
+The first thing we are going to do with our icing is remove all the code so that we build our component from scratch so that we better understand what's going on. 
+
+Now that we have a nice and clean slate,we will start by importing ``react``
+
+``import react from 'react';``
+
+Next we declare a function, we will use ES6 arrow function here. That's more or less what a component is...A function with some logic and markup ( In this case JSX ). We are also going to export this function so we can use it elsewhere.
+
+        `` const App = () =>{
+
+                }
+
+            export default App;
+        ``
+
+Within this code we write a ``return()`` statement, that is what get's returned from this component, and contains our markup that get's rendered inform of HTMl.
+Finally let's add a ``div``  with an ``h1`` title tag. Our finished component looks like this:
+
+        const App = () =>{
+            return(
+                <div>
+                <h1>Our First React App</h1>
+                <h2>This is our first react app, isn't it amazing!!!!</h2>
+                </div>
+            )
+        }
+
+Now you are probably thinking, Whoah!! HTML in a function? Even though it looks like HTML, it's something called JSX( JavaScript XML ).It allows us to mix JavaScript and HTML.
+This might seem a littel peculiar cause we started learning front-end development by seperating HTML and JavaScript( and even CSS ). That is where libaries come in, to keep things together and to make writing code easier.Keeping everything together in the same component makes it easier to maintain and reuse the code.
+
+Let's see that in action. Run this command in your terminal
+
+``npm run start``
+
+This should open the browser and you should be able to see your application running.
+
+Voila!! You just created your first component.
 
 
 
