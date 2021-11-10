@@ -3,7 +3,7 @@ title: Gettting Started with React
 author: Valary Uhuru
 date: 2021-11-04
 hero: ./images/image.png
-excerpt: This blog post shows step by step guidelines on how to Get started with React and Resources to use to help one get in track.
+excerpt: This blog post shows step by step guidelines on how to get started with react and resources to use to help one get in track.
 ---
 
 
