@@ -259,6 +259,76 @@ The ``root`` element comes from *index.html* file from our folder called ``publi
 ![Output in the console](./images/console.png)
 
 
+## Let;s display data fetched from an API
+
+Wuuuuh wuuuh!! This is the most interesting part, in JavaScript there'll always be data to be fetched and dislplayed because you constantly have to communicate with the backend. We will not dive in too deep. We will use ``fetch API``. Fetch API uses ``Promise`` to deliver more flexible features to make requests to servers from web browsers. In addition it is much simpler and cleaner compared to ``XMLHttpRequests``.
+
+The ``fetch()`` is available in global scope which instructs the web browsers to make requests.
+
+### Sending a request
+
+The ``fetch()`` only requires one parameter which is the url for the resources you want to fetch.
+        let response = fetch(url);
+
+The ``fetch()`` returns a ``Promise`` so you can use ``then`` and ``catch`` to handle it.
+
+        fetch(url)
+        .then(response => {
+            //Handle response
+        })
+        .catch(error =>{
+            //Handle error
+        });
+
+When the response completes the response is available. At this time, the Promise will resolve into ``Response`` object.
+
+The ``Response`` object is the API wrapper for the fetched url resources. The ``Response`` object has a number of useful properties and methods to inspect the response.
+
+Let's get right into the juice.
+Visit this [<span> link </span>](https://catfact.ninja/fact)to get some free APIs. Choose any that you please. In our case we will use ``Cat facts APIs``. I love cats!!
+
+        import "./App.css";
+        import React from "react";
+
+        const App = () => {
+        let catFact = {};
+        let fact = '';
+        const fetchAPI = () => {
+            fetch("https://catfact.ninja/fact")
+            .then((response) => {
+                return response.json();
+            })
+            .then(data =>{
+            catFact = data;
+            fact = catFact.fact;
+            console.log( catFact );
+            console.log(fact);
+            })
+            .catch((err) => console.log(err))
+        };
+
+        fetchAPI();
+
+        return (
+            <div className="App">
+            <h1>First React App!</h1>
+            </div>
+        );
+        };
+
+        export default App;
+
+To your previous code, add the above snippet and open your console to view your data. Now as an assignment work on displaying the data on your browser.
+
+There are better libararies used to fetch APIs such as ``axios``.[<span>Here's a link to a comprehensive view of axios</span>](https://github.com/axios/axios)
+
+
+Happy coding!!!!
+
+
+
+
+
 
 
 
