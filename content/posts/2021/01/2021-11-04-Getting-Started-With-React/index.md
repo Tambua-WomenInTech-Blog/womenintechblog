@@ -341,6 +341,7 @@ To your previous code, add the above snippet and open your console to view your 
 
 There are better libararies used to fetch APIs such as ``axios``.[<span>Here's a link to a comprehensive view of axios</span>](https://github.com/axios/axios)
 
+React has a good documentation showing a step to step guide. [Check it out here](https://reactjs.org/). See you on the next blog when we talk about ``props.``
 
 Happy coding!!!!
 
