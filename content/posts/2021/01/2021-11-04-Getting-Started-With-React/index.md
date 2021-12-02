@@ -86,24 +86,24 @@ All we to do is run this command in our terminal.
 
  <!-- > npx create-react-app my-app -->
 
- ![](./images/react-app.png)
+ ![](/images/react-app.png)
 
 This creates a React project called my-app.
-![Output on the terminal](./images/vscode.png)
+![Output on the terminal](/images/vscode.png)
 
 Realize we've been directed on how to start our app
 
-![](./images/cd-app.png)
+![](/images/cd-app.png)
 
  Run these commands on your terminal, this will start a development server and open a web browser for you.
- ![Web browser](./images/react-app.png)
+ ![Web browser](/images/react-app.png)
 
  You;ve just set up your first React app, if you want to know more about what happens in the background visit this link [Create React App](https://github.com/facebook/create-react-app)
 
 
 ## Exploring Create React App
 
-![Here's the file structure](./images/react-file-structure.png)
+![Here's the file structure](/images/react-file-structure.png)
 
 After running  ``npx create-react-app yourApp``, you will find your app root has three folders, ``node_modules/``, ``public/``, ``src/`` and three files ``.gitignore``, ``package.json``, ``README.md`` and ``yarn.lock``.
 
