@@ -84,20 +84,21 @@ That's enough development set up for now.
 The next step is now creating a React app. Thank God for the folks at Facebook who made it easy for us to do that.
 All we to do is run this command in our terminal.
 
- > npx create-react-app my-app
+ <!-- > npx create-react-app my-app -->
 
-This craetes a React project called my-app.
+ ![](./images/react-app.png)
+
+This creates a React project called my-app.
 ![Output on the terminal](./images/vscode.png)
 
 Realize we've been directed on how to start our app
- > cd my-app
- > yarn start
 
+![](./images/cd-app.png)
 
- Run this commands on your terminal, this will start a development server and open a web browser for you.
+ Run these commands on your terminal, this will start a development server and open a web browser for you.
  ![Web browser](./images/react-app.png)
 
- You;ve just set up your first React app, if you want to know more about what happens in the background visit this link [Create React App}(https://github.com/facebook/create-react-app)
+ You;ve just set up your first React app, if you want to know more about what happens in the background visit this link [Create React App](https://github.com/facebook/create-react-app)
 
 
 ## Exploring Create React App
@@ -143,16 +144,18 @@ Now that we have a nice and clean slate,we will start by importing ``react``
 
 Next we declare a function, we will use ES6 arrow function here. That's more or less what a component is...A function with some logic and markup ( In this case JSX ). We are also going to export this function so we can use it elsewhere.
 
-        `` const App = () =>{
+        ```js
+         const App = () =>{
 
                 }
 
             export default App;
-        ``
+        ```
 
 Within this code we write a ``return()`` statement, that is what get's returned from this component, and contains our markup that get's rendered inform of HTMl.
 Finally let's add a ``div``  with an ``h1`` title tag. Our finished component looks like this:
 
+        ```js
         const App = () =>{
             return(
                 <div>
@@ -161,6 +164,7 @@ Finally let's add a ``div``  with an ``h1`` title tag. Our finished component lo
                 </div>
             )
         }
+        ```
 
 Now you are probably thinking, Whoah!! HTML in a function? Even though it looks like HTML, it's something called JSX( JavaScript XML ).It allows us to mix JavaScript and HTML.
 This might seem a littel peculiar cause we started learning front-end development by seperating HTML and JavaScript( and even CSS ). That is where libaries come in, to keep things together and to make writing code easier.Keeping everything together in the same component makes it easier to maintain and reuse the code.
@@ -178,12 +182,14 @@ Voila!! You just created your first component.
 
 Let's dive deeper into JSX, you probably have some questions lingering.
 
+            ```js 
             return(
                 <div>
                     <h1>Our First React App</h1>
                     <h2>This is our first react app, isn't it amazing!!!!</h2>
                 </div>
-                )
+                );
+            ```
 
 This looks like HTML and it's not. It's JSX! Evn though it looks like normal HTML but it's not, React is creating the element tree using the following syntax:
     ``React.createElement(component,props,...children)``
@@ -194,6 +200,7 @@ This looks like HTML and it's not. It's JSX! Evn though it looks like normal HTM
 
 So the same component we just created can be written as:
 
+       ```js
         const App = ()=>{
             return(
                 React.createElement('div', null, React.createElement('h1',null, "Hello World"),
@@ -201,6 +208,7 @@ So the same component we just created can be written as:
                 React.createElement('div', null, React.createElement('h1',null, "This is our first react app, isn't it amazing!!!!"))
             );
          }
+      ```
 
 This is a whole lot to type right? It looks messy. If you trace through it you will realize we are creating a `div` which has no props passed to it and has other elements created inside it which are `h1` and `h2`. If you've interacted with JavaScript a lot you'll realize that it a lot similar to ``document.createElement`` after all this is a JavaScript library.
 
@@ -212,6 +220,7 @@ React developers almost exclusively use JSX, this section was important to under
 
 Why use JSX when you can just write HTML and get away with it? Well if we remember what JSX stands for( JavaScript XML ). This means we can use JavaScript to make things dynamic. Our previous example looks like so:
 
+     ```js 
      const App = () =>{
             return(
                 <div>
@@ -220,6 +229,8 @@ Why use JSX when you can just write HTML and get away with it? Well if we rememb
                 </div>
             )
         }
+    ```
+     
 
 Now let's make it dynamic.
 Create a variable ``message`` to hold our message.
@@ -228,6 +239,7 @@ Create a variable ``message`` to hold our message.
 
 Now to add JavaScript to use this, we use **curlybraces** `{}`.
 
+        ```js 
         const App = ()=>{
             const message = 'This is our first react app, isn't it amazing!!!!';
             return(
@@ -235,18 +247,21 @@ Now to add JavaScript to use this, we use **curlybraces** `{}`.
                 <h2>{ message }</h2>
             )
         }
+        ```
 
 If you run this in your terminal you will see the output. Now go ahead and change the message and see magic!
 
 We use curly braces to tell the compiler **"execute this code in JavaScript"**. If we didn't have the curly braces the message wouldn't be executed as JavaScript, and instead the text 'message' would be displayed on your browser.
 
-## How a component get's rendered.
+## How a component gets rendered.
 
 Hopefully, I have cleared all the questions you have about JSX and creating components plus making them dynamic. I know you still asking yourself how these components get rendered right? This section will clear that up.
 Let's take a look at our file structure, notice ``index.html`` , this is always considered an entry file, to most developers if not all. You can change the entry point if you wish. For now we will leave it as is.
 
 Focus on this line of code
-> ReactDOM.render(<App />, document.getElementById("root"));
+  ```js
+  ReactDOM.render(<App />, document.getElementById("root"));
+  ```
 
 Notice we have ``document.getElementById("root");`` finally some normal looking JavaScript. This gets the root element from the DOM using plain JavaScript and renders our App component within it. Our App component is imported like so:
 
@@ -259,7 +274,7 @@ The ``root`` element comes from *index.html* file from our folder called ``publi
 ![Output in the console](./images/console.png)
 
 
-## Let;s display data fetched from an API
+## Let's display data fetched from an API
 
 Wuuuuh wuuuh!! This is the most interesting part, in JavaScript there'll always be data to be fetched and dislplayed because you constantly have to communicate with the backend. We will not dive in too deep. We will use ``fetch API``. Fetch API uses ``Promise`` to deliver more flexible features to make requests to servers from web browsers. In addition it is much simpler and cleaner compared to ``XMLHttpRequests``.
 
@@ -272,13 +287,15 @@ The ``fetch()`` only requires one parameter which is the url for the resources y
 
 The ``fetch()`` returns a ``Promise`` so you can use ``then`` and ``catch`` to handle it.
 
+        ```js 
         fetch(url)
         .then(response => {
-            //Handle response
+        //Handle response
         })
         .catch(error =>{
-            //Handle error
+         //Handle error
         });
+        ```
 
 When the response completes the response is available. At this time, the Promise will resolve into ``Response`` object.
 
@@ -287,6 +304,7 @@ The ``Response`` object is the API wrapper for the fetched url resources. The ``
 Let's get right into the juice.
 Visit this [<span> link </span>](https://catfact.ninja/fact)to get some free APIs. Choose any that you please. In our case we will use ``Cat facts APIs``. I love cats!!
 
+        ```js 
         import "./App.css";
         import React from "react";
 
@@ -317,6 +335,7 @@ Visit this [<span> link </span>](https://catfact.ninja/fact)to get some free API
         };
 
         export default App;
+        ```
 
 To your previous code, add the above snippet and open your console to view your data. Now as an assignment work on displaying the data on your browser.
 
