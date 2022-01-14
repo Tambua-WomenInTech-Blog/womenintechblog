@@ -1,4 +1,4 @@
-baseURL = 'https://tambua-womenintech-blog.github.io/womenintechblogdev/'
+baseURL = 'womenintechblogdev/'
 languageCode = 'en-us'
 title = 'Women In Tech Blog'
 pygmentsstyle = 'monokai'
