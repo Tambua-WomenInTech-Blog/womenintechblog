@@ -1,7 +1,7 @@
 ---
 title: "Writing a Blog"
 date: 2022-01-14T12:47:55+03:00
-hero: /images/hero/arthur-ken/writing-a-blog/hero.jpeg
+hero: /womenintechblogdev/images/hero/arthur-ken/writing-a-blog/hero.jpeg
 excerpt: "This post details the step by step guidelines on how to add a new blog."
 authors:
  - Arthur Ken
