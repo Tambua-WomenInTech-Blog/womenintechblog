@@ -1,2 +1,4 @@
 *.lock
 .DS_Store
+themes
+resources
