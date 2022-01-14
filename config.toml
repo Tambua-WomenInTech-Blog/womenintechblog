@@ -1,4 +1,4 @@
-baseURL = 'womenintechblogdev/'
+baseURL = '/'
 languageCode = 'en-us'
 title = 'Women In Tech Blog'
 pygmentsstyle = 'monokai'
