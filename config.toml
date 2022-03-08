@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "/"
+baseURL = "/womenintechblogdev"  # Remove this
 languageCode = 'en-us'
 title = 'Women In Tech Blog'
 pygmentsstyle = 'monokai'
