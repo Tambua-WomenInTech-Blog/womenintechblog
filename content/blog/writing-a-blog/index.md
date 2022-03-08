@@ -1,6 +1,6 @@
 ---
 title: "Writing a Blog"
-date: 2022-01-14T12:47:55+03:00
+date: 2021-01-17T12:47:55+03:00
 image: "images/hero/arthur-ken/writing-a-blog/hero.jpeg"
 summary: "This post details the step by step guidelines on how to add a new blog."
 author: "Arthur Ken"
