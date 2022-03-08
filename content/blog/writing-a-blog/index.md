@@ -1,14 +1,13 @@
 ---
 title: "Writing a Blog"
 date: 2022-01-14T12:47:55+03:00
-hero: /womenintechblogdev/images/hero/arthur-ken/writing-a-blog/hero.jpeg
-excerpt: "This post details the step by step guidelines on how to add a new blog."
-authors:
- - Arthur Ken
+image: "images/hero/arthur-ken/writing-a-blog/hero.jpeg"
+summary: "This post details the step by step guidelines on how to add a new blog."
+author: "Arthur Ken"
 draft: false
 ---
 
-# Clone
+## Clone
 
 If you are working on this project for the first time follow the below steps.
 
@@ -19,7 +18,7 @@ git clone --recurse-submodules -j8 https://github.com/<YOUR-USERNAME>/womenintec
 # git clone --recurse-submodules -j8 https://github.com/nerd/womenintechblog && cd womenintechblog
 ``` 
 
-# Branch 
+## Branch 
 
 Switch to a branch that is named in the following manner 
 
@@ -28,15 +27,16 @@ git checkout -b blog/<your-git-username>/<blog-name>
 # example git checkout -b blog/nerd/rust 
 ```
 
-# Before you start
+
+## Before you start
 
 Follow the `README` guide found at the root of the project to set your development environment.
 
-# Create Blog
+## Create Blog
 
 To add a new blog, run the command below inside your terminal
 ```sh
-hugo new --kind blog-post post/your-blog-title
+hugo new --kind blog blog/your-blog-title
 ```
 
 Each blog will be inside the directory structure as shown below. Your new blog will reside inside a folder named `blog-title`.
@@ -45,9 +45,10 @@ Each blog will be inside the directory structure as shown below. Your new blog w
 /
 |-- /.github
 |-- /archetypes
+|-- /assests
 |-- /content
-    |-- /authors/authors
-    |-- /posts
+    |-- /author
+    |-- /blog
         |--/blog-title
             |--/blog-title
                 |--/images
@@ -59,11 +60,11 @@ Each blog will be inside the directory structure as shown below. Your new blog w
 |-- README.md
 ``` 
 
-Inside this folder, add your blog images inside the `images` folder.The `index.md` file where your blog content goes.Ensure to add your blog hero image inside `static/images/hero/firstname-lastname/blog-title`.
+Inside this folder, add your blog images inside the `images` folder.The `index.md` file where your blog content goes.Ensure to add your blog hero image inside `assets/images/hero/firstname-lastname/blog-title` folder.
 
-> Adding hero inside the static folder and not inside your blog post folder is due to how Hugo processes content data, if this is not followed, the hero image does not render on the home page.
+> Adding hero inside the assets folder and not inside your blog post folder is due to how this particular Hugo theme processes  static content data, if this is not followed, the hero image does not render on the home page.
 
-## Blog frontmatter 
+### Blog frontmatter 
 
 Your blog should have the following contents in its frontmatter. 
 
@@ -71,42 +72,39 @@ Your blog should have the following contents in its frontmatter.
 ---
 title: Your Blog Title
 date: Auto-generated DO NOT EDIT
-hero: ./images/hero/hero.jpg
-excerpt: Some excerpt about your blog.
-authors: 
-    - Your first and last name
-    - If you are collaborating, your co-author's first and last name as they appear inside author's directory
-    - Another co-author
+image: ./images/hero/hero.jpg
+summary: A short summary about your blog.
+author: "Your Name"
 draft: true
 ---
 ``` 
 
-# Author Info 
+## Author Info 
 
-## Create new Author
+### Create new Author
 
 To create a new author run the follwowing command in your terminal of choice
 
 ```sh
-hugo new --kind author authors/firstname-lastname
+hugo new author/firstname-lastname
 ```
 
-Each author will have their info inside the `content/authors/<firstname-lastname>` folder and their avatars _**will have to be added**_ inside the `static/images/avatars/<firstname-lastname>` folder, the image size should be cropped to `512 pixels x 512 pixels`
+Each author will have their info inside the `content/author/<firstname-lastname>.md` file and their avatars _**will have to be added**_ inside the `static/images/avatars/<firstname-lastname>` folder, the image size should be cropped to `512 pixels x 512 pixels`
 
 ```text
 /
 |-- /.github
 |-- /archetypes
+|-- /assets
 |-- /content
-    |--/authors/authors
-                |--/firstname-lastname
-                    |--/._index.md
-    |--/post
+    |--/author/
+            |--/firstname-lastname.md
+    |--/blog
 |-- /layouts
 |-- /static
     |--/images/avatars
             |--/firstname-lastname/
-                |--/./firstname-lastname.png
+                |--/firstname-lastname.png
 |-- /themes
 |-- config.toml
 |-- README.md
@@ -118,27 +116,30 @@ Inside `content/authors/<firstname-lastname>/_.index.md` add the contents as fol
 ```markdown 
 ---
 title: FirstName LastName
-bio: |
-  Something very cool about yourself.
-  Feel free to write a longer bio.
-avatar: /images/avatars/<firstname-lastname>/<first-name-lastname>.png
-featured: false
+image: /images/avatars/<firstname-lastname>/<first-name-lastname>.png
 social:
-  - title: github
-    url: https://github.com
+  - icon: "la-github"
+    link: https://github.com
 ---
+Something very cool about yourself. Feel free to write a longer bio.
 ``` 
 
-Ensure to have added your avatar, and your name must match what you have in your blog post.  
-
-**The Admin can make you a featured author by adding the following lines under your bio**
-
-```markdown 
-featured: true
+You can also add mopre social links, get icons from [line awesome](https://icons8.com/line-awesome). 
+For example
+```markadown
+//..
+social:
+    - icon: "la-discord"
+      link: https://discord.gg/test  
 ```
 
+**Ensure to have added your avatar, and your name must match what you have in your blog post.**   
 
-# Preview 
+
+~~**The Admin can make you a featured author by adding the following lines under your bio**~~
+ 
+
+## Preview 
 
 To preview your content, run the below command and open [http://localhost:1313/](http://localhost:1313/).
 
@@ -146,7 +147,16 @@ To preview your content, run the below command and open [http://localhost:1313/]
 hugo server -D
 ``` 
 
-# Publishing 
+## Content Tips and Tricks
+
+### Images within the blog 
+
+Use [hugo shortcode](https://gohugo.io/content-management/shortcodes/) for `HTML5 Figure` tag
+
+{{< figure src="./images/test-img.png" title="Test Image Title" >}}
+
+
+## Publishing 
 
 When ready to publish set `draft` to `false` in you blog.
 
@@ -164,12 +174,12 @@ git commit -m "a message about your changes, example added rust beginner blog"
 git push origin blog/nerd/rust
 ```
 
-## Send a Pull Request 
+### Send a Pull Request 
 
 From Github, switch to your branch and send a pull request and await your PR to be merged. 
 
 
-## Making changes 
+### Making changes 
 
 To make changes to your blog or Bio follow the below steps: 
 

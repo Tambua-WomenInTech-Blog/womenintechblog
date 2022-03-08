@@ -1,3 +1,6 @@
 [submodule "themes/hugo-theme-novela"]
 	path = themes/hugo-theme-novela
 	url = https://github.com/forestryio/hugo-theme-novela.git
+[submodule "themes/bookworm-light"]
+	path = themes/bookworm-light
+	url = https://github.com/gethugothemes/bookworm-light.git
