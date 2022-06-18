@@ -12,25 +12,42 @@ regarding variety of topics including technical writing, personal tech journey a
 To contribute to the Blog, follow the step by step guide stated in this article to aid https://tambua-womenintech-blog.github.io/womenintechblog/How-to-add-a-blog.
 
 
-### Develop & Build
+## Install [Hugo](https://gohuogo.io)
 
-Once installed or cloned locally and all packages are installed you can begin developing your site.
+### MacOS [Homebrew](https://brew.sh)
+```sh
+brew install hugo
+```
+
+### Windows [Choco](https://chocolatey.org/)
+```bat
+choco install hugo -confirm
+```
+
+### Linux (Example Arch Linux)
+```sh
+# For other Linux distros, use your distro's package manager otherwise download from https://github.com/gohugoio/hugo/releases 
+sudo pacman -S hugo 
+```
+
+### BSD etc 
+Download from [releases](https://github.com/gohugoio/hugo/releases)
+
+
+## Develop & Build
+
+Once installed or cloned locally you can begin writing your blog post.
+
+To run and or preview run the command below
 
 ```sh
-# Clean project localhost
-yarn run clean
-
-# Run localhost
-yarn run dev
-
-# Build your project
-yarn build
+hugo server -D
 ```
 
 To confirm your changes navigate to
-http://localhost:8000
+http://localhost:1313/
 
-### Creating Branches
+## Creating Branches
 
 Here are the branch naming conventions:
 
@@ -44,33 +61,13 @@ Here are the branch naming conventions:
 
 * A hotfix should use :  `hotfix/the hotfix name`
 
-### Creating a Pull Request
+## Creating a Pull Request
 
 Pull requests are created from `develop` branch
 You have to add atleast one reviewer when creating a pull request, that must be approved by the reviewers first before merging
 
-### Merging a Pull Request
+## Merging a Pull Request
 
 Once a Pull Request has been approved, merge it to the `develop` branch. 
-`Develop` is the default branch. 
-
-### Developing on Docker 
-
-In certain scenarios, running `npm install` or `yarn install` may fail due to a set of unknown errors (node-gyp,sharp...etc)
-in that case it is safe to test your site on Docker.
-
-To do so,follow the simple steps below
-
-* Install Docker as detailed [here](https://docs.docker.com/engine/install/) 
-* Once Docker is set up and running, run the command below in your favourite terminal
-    ```bash 
-    npm run docker:all
-
-    # Or for yarn 
-    yarn run docker:all
-    ```
-    This will build the Docker image locally and run it
-* Navigate to [localhost:8090](localhosst:8090) on your browser to view your changes
-
-> One caveat is that you will not have hot reloading. To make new changes, exit from the container `Ctrl+C`, make your changes 
-    and rebuild again.  
+`develop` is the default branch. 
+ 
