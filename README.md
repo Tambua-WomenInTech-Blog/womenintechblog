@@ -9,7 +9,7 @@ regarding variety of topics including technical writing, personal tech journey a
 
 # Contributing to the Blog
 
-To contribute to the Blog, follow the step by step guide stated in this article to aid https://tambua-womenintech-blog.github.io/womenintechblog/How-to-add-a-blog.
+To contribute to the Blog, follow the step by step guide stated in this article to aid https://womenintechblog.dev/blog/writing-a-blog/
 
 
 ## Install [Hugo](https://gohuogo.io)
@@ -51,15 +51,15 @@ http://localhost:1313/
 
 Here are the branch naming conventions:
 
-* A Blog should use : `Blog/your-git-username/title of the blog`  
+* A Blog should use : `Blog/your-git-username/title_of_the_blog`  
 
-* To edit an already published Blog, use : `edit/your-git-username/title of the blog`
+* To edit an already published Blog, use : `edit/your-git-username/title_of_the_blog`
 
-* A chore should use : `chore/the chore name`
+* A chore should use : `chore/the_chore_name`
 
-* A feature should use : `feature/the feature name`
+* A feature should use : `feature/the_feature_name`
 
-* A hotfix should use :  `hotfix/the hotfix name`
+* A hotfix should use :  `hotfix/the_hotfix_name`
 
 ## Creating a Pull Request
 
