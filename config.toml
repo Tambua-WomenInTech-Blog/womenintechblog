@@ -89,7 +89,7 @@ search = true
 # main section
 mainSections = ["blog"]
 # copyright
-copyright = "Copyright ©2023 Women in Tech Blog - Powered by [Gethugothemes](https://gethugothemes.com/)"
+copyright = "Copyright ©2024 Women in Tech Blog - Powered by [Gethugothemes](https://gethugothemes.com/)"
 
 # Preloader
 [params.preloader]
