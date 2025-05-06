@@ -5,7 +5,7 @@ title = 'Women In Tech Blog'
 pygmentsstyle = 'monokai'
 theme = "bookworm-light"
 # post pagination
-paginate = "5"
+pagerSize = 5
 # post excerpt
 summaryLength = "20"
 # google analytics
