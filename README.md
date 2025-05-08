@@ -73,6 +73,6 @@ Once a Pull Request has been approved, merge it to the `develop` branch.
 
 ## Creating a new release
 
-Once latest changes from a feature branch are merged into the develop branch, github actions will automatically deploy to https://tambua-womenintech-blog.github.io/womenintechblog. Here you can see a preview of the new changes before merging develop branch into the main branch, which automatically updates the live webpage.
+Once latest changes from a feature branch are merged into the `develop`branch, github actions will automatically deploy to https://tambua-womenintech-blog.github.io/womenintechblog. Here you can see a preview of the new changes before merging `develop` branch into the `main` branch, which automatically updates the live webpage - https://womenintechblog.dev.
 
 Note: If any issues arises on the `develop` branch, please fix them first before merging to `main`.
