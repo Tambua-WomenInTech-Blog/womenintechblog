@@ -2,37 +2,37 @@
 
 ![cover](https://user-images.githubusercontent.com/39112051/113208193-2e934180-927a-11eb-8346-8d8721e65a23.png)
 
-
 A WomenInTech OpenSource Blog site. Allows various authors to put down their thoughts into writing
 regarding variety of topics including technical writing, personal tech journey and non-technical topics within tech field.
-
 
 # Contributing to the Blog
 
 To contribute to the Blog, follow the step by step guide stated in this article to aid https://womenintechblog.dev/blog/writing-a-blog/
 
-
 ## Install [Hugo](https://gohuogo.io)
 
 ### MacOS [Homebrew](https://brew.sh)
+
 ```sh
 brew install hugo
 ```
 
 ### Windows [Choco](https://chocolatey.org/)
+
 ```bat
 choco install hugo -confirm
 ```
 
 ### Linux (Example Arch Linux)
+
 ```sh
-# For other Linux distros, use your distro's package manager otherwise download from https://github.com/gohugoio/hugo/releases 
-sudo pacman -S hugo 
+# For other Linux distros, use your distro's package manager otherwise download from https://github.com/gohugoio/hugo/releases
+sudo pacman -S hugo
 ```
 
-### BSD etc 
-Download from [releases](https://github.com/gohugoio/hugo/releases)
+### BSD etc
 
+Download from [releases](https://github.com/gohugoio/hugo/releases)
 
 ## Develop & Build
 
@@ -51,15 +51,15 @@ http://localhost:1313/
 
 Here are the branch naming conventions:
 
-* A Blog should use : `Blog/your-git-username/title_of_the_blog`  
+- A Blog should use : `Blog/your-git-username/title_of_the_blog`
 
-* To edit an already published Blog, use : `edit/your-git-username/title_of_the_blog`
+- To edit an already published Blog, use : `edit/your-git-username/title_of_the_blog`
 
-* A chore should use : `chore/the_chore_name`
+- A chore should use : `chore/the_chore_name`
 
-* A feature should use : `feature/the_feature_name`
+- A feature should use : `feature/the_feature_name`
 
-* A hotfix should use :  `hotfix/the_hotfix_name`
+- A hotfix should use : `hotfix/the_hotfix_name`
 
 ## Creating a Pull Request
 
@@ -68,6 +68,11 @@ You have to add atleast one reviewer when creating a pull request, that must be 
 
 ## Merging a Pull Request
 
-Once a Pull Request has been approved, merge it to the `develop` branch. 
-`develop` is the default branch. 
- 
+Once a Pull Request has been approved, merge it to the `develop` branch.
+`develop` is the default branch.
+
+## Creating a new release
+
+Once latest changes from a feature branch are merged into the `develop`branch, github actions will automatically deploy to https://tambua-womenintech-blog.github.io/womenintechblog. Here you can see a preview of the new changes before merging `develop` branch into the `main` branch, which automatically updates the live webpage - https://womenintechblog.dev.
+
+Note: If any issues arises on the `develop` branch, please fix them first before merging to `main`.
